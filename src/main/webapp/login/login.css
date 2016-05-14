@@ -1,0 +1,67 @@
+html, body {
+	height: 100%;
+}
+
+#container {
+	min-height: 100%; /*使内容高度和body一样*/
+	margin-bottom: -80px; /*向上缩减80像素，不至于footer超出屏幕可视范围*/
+	text-align: center; /*居中显示*/
+}
+
+#content {
+	padding-bottom: 150px; /*这个是关键，处理页面高度超出屏幕可视范围时，控制内容和底部高度之间距离*/
+	font-family:"微软雅黑";
+	font-size:18px
+}
+
+#footer {
+	height: 80px;
+	text-align: center; /*居中显示*/
+}
+
+#input-form {
+	max-width:360px;margin-left:auto;margin-right:auto;
+}
+
+.input-block {
+	width: 100%
+}
+
+.input-large {
+	margin:6px;
+	padding:0;
+	line-height:20px;
+	height:35px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:red
+}
+
+.but {
+	width: 101.2%;
+	font-family:"微软雅黑";
+	margin:6px;padding:6px 20px;font-size:15px;line-height:20px;
+	background-color:#098cc8;color:#fff;border:1px solid transparent;
+}
+.but:hover {
+	width: 101.2%;
+	font-family:"微软雅黑";
+	margin:6px;padding:6px 20px;font-size:15px;line-height:20px;
+	background-color:#21b0f1;color:#fff;border-color:transparent;
+}
+.but:active {
+	width: 101.2%;
+	font-family:"微软雅黑";
+	margin:6px;padding:6px 20px;font-size:15px;line-height:20px;
+	background-color:#006899;color:rgba(255,255,255,0.7);border-color:transparent;
+}
+
+#help-links {
+/* 	margin-top:15px; */
+	text-align:left;
+	list-style-type:none;
+/* 	margin-bottom:10px; */
+/* 	width: 100%; */
+/* 	text-align: center； */
+/* 	padding-left:0;margin-bottom:15px */
+}
