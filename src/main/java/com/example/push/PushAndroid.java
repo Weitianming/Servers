@@ -10,7 +10,7 @@ import com.aliyuncs.push.model.v20150827.PushNoticeToAndroidRequest;
 import com.aliyuncs.push.model.v20150827.PushNoticeToAndroidResponse;
 
 public class PushAndroid {
-	long appKey = 23343518;
+	long appKey = '没有，别再给我发邮件了，病毒阿里';
 
 	/**
 	 * 向Android推送消息
